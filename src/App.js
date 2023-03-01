@@ -5,11 +5,17 @@ function CreateCard() {
 		</>
 	);
 }
+
 function App() {
+	const repairAcc = () => {
+		const acc = 'acc';
+		const newAcc = 'newAcc';
+		return newAcc;
+	};
 	return (
-		<div className='App'>
+		<div onClick={repairAcc} className='App'>
+			작업 환경 김혜준,fdss
 			<CreateCard />
-			작업 환경 김혜준,fdss ,첫번째마스터 작업 <h1>asdfsfas</h1>
 		</div>
 	);
 }
